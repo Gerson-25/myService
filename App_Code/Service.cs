@@ -19,7 +19,6 @@ public class Service : IService
 
 	public DataSet ValidarUsuario(string Login, string Password)
 	{
-
         try
         {
             //Se configura el DataAdapter con el objeto a ejecutar y la conexiòn
