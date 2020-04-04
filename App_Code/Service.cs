@@ -11,6 +11,7 @@ using System.Configuration;
 // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código, en svc y en el archivo de configuración.
 public class Service : IService
 {
+
     string strConex = ConfigurationManager.ConnectionStrings["Conexion"].ConnectionString;
     string Patron = ConfigurationManager.AppSettings["Patron"].ToString();
     DataSet ds = new DataSet();
